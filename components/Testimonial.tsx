@@ -70,6 +70,7 @@ const [isEnd, setIsEnd] = useState(false);
             : "bg-background-dark text-white hover:bg-primary hover:text-black hover:shadow-[0_0_15px_rgba(242,208,13,0.4)]"
             }`}
         >
+          <span class="sr-only">Previous</span>
         <IoIosArrowBack />
         </button>
 
@@ -84,6 +85,7 @@ const [isEnd, setIsEnd] = useState(false);
             : "bg-background-dark text-white hover:bg-primary hover:text-black hover:shadow-[0_0_15px_rgba(242,208,13,0.4)]"
             }`}
         >
+          <span class="sr-only">Next</span>
         <IoIosArrowForward />
         </button>
 
